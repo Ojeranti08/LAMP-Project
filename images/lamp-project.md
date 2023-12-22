@@ -61,3 +61,15 @@ dex.html'`
 `http://`server_domain_or_IP`/info.php` [pasted on browser]
 
 `sudo rm /var/www/your_domain/info.php`
+
+`CREATE DATABASE `example_database`;`
+
+`CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.2';`
+
+`GRANT ALL ON example_database.* TO 'example_user'@'%';`
+
+`SHOW DATABASES;`
+
+`SELECT * FROM example_database.todo_list;`
+
+`sudo vi /var/www/projectlamp/todo_list.php`

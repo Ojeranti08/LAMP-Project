@@ -1,0 +1,13 @@
+-- Create the table
+CREATE TABLE example_database.todo_list (
+    item_id INT AUTO_INCREMENT,
+    content VARCHAR(255),
+    PRIMARY KEY(item_id)
+);
+
+-- Insert data into the table
+INSERT INTO example_database.todo_list (content) VALUES 
+('My first important item'),
+ ('My second important item'),
+  ('My third important item'),
+  ('My final important item');
