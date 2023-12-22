@@ -1,6 +1,6 @@
 ## Creating VirtualHost
 
-> <VirtualHost *:80>
+<VirtualHost *:80>
     ServerName projectlamp
     ServerAlias www.projectlamp 
     ServerAdmin webmaster@localhost
