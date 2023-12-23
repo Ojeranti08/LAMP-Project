@@ -47,8 +47,7 @@
 ` sudo systemctl reload apache2`
 
 ` sudo sh -c 'echo "Hello LAMP from hostname $(curl -s http://169.254.169.254/latest/meta-data/p
-ublic-hostname) with public IP $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)" > /var/www/projectlamp/in
-dex.html'`
+ublic-hostname) with public IP $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)" > /var/www/projectlamp/index.html'`
 
 `sudo systemctl reload apache2`
 
