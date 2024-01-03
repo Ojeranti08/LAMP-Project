@@ -1,5 +1,5 @@
 # LAMP-Project
-LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
+LAMP (Linux, Apache, MySQL, PHP)
 
 
  I have built a LAMP Stack Project by serving PHP websites and applications to my visitors, using Nginx as web server and MySQL as database management system.
